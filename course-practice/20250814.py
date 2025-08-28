@@ -17,7 +17,7 @@ def drinks_machine():
     if money < milk_tea_price and money < black_tea_price:
         print("無法購買奶茶或紅茶")
     elif money >= max(black_tea_price, milk_tea_price):
-        print("可以購買紅茶或奶茶")
+        print("可以購買紅茶和奶茶")
     elif money >= milk_tea_price:
         print("可以購買奶茶")
     elif money >= black_tea_price:
